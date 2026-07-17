@@ -18,10 +18,8 @@ your machine.
 
 1. Download `Scribe-Installer.dmg` from the [latest release](../../releases/latest).
 2. Open the DMG and drag **Scribe** into **Applications**.
-3. First launch: right-click Scribe.app → **Open**. If macOS still blocks it,
-   go to **System Settings → Privacy & Security** and click **Open Anyway**.
-   (The app is code-signed; notarization for a friction-free first launch is
-   in progress for the next beta.)
+3. Launch Scribe from Applications. The app is code-signed and notarized —
+   no security warnings expected.
 4. Grant the **Microphone** and **Accessibility** permissions Scribe asks for —
    it needs them to hear you and to paste at your cursor. That's all it does
    with them.
