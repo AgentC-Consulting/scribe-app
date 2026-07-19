@@ -1,6 +1,6 @@
 cask "scribe" do
-  version "1.0.0-beta.3"
-  sha256 "1564ecd9ba6de10785ce42c3b1fb70950a0921206e46989ac978c60cb592120b"
+  version "1.0.0-beta.4"
+  sha256 "d24a02f4ddf26baf2ff6b5c36bdfc5f1670a0b5079047f52596445a58c1dac1e"
 
   url "https://github.com/AgentC-Consulting/scribe-app/releases/download/v#{version}/Scribe-Installer.dmg"
   name "Scribe"
