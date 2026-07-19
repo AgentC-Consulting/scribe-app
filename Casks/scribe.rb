@@ -13,7 +13,7 @@ cask "scribe" do
     regex(/^v?(\d+\.\d+\.\d+(?:-beta\.\d+)?)$/i)
   end
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
   depends_on arch:  :arm64
 
   app "Scribe.app"
