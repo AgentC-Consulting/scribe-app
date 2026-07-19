@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: Private or security reports
-    url: mailto:agent_c@agentc.consulting
-    about: For private questions or security issues, email us instead of opening a public issue.
+    url: https://github.com/AgentC-Consulting/scribe-app/blob/main/.github/SUPPORT.md
+    about: For private questions or security issues, email agent_c@agentc.consulting instead of opening a public issue.
   - name: Documentation
     url: https://github.com/AgentC-Consulting/scribe-app/blob/main/docs/README.md
     about: Read the user guide and troubleshooting before filing an issue.
