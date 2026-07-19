@@ -1,0 +1,119 @@
+name: Bug report
+description: Report something in Scribe that is not working the way you expect.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. The more detail you give,
+        the faster we can reproduce and fix it.
+
+        **Privacy warning:** Never attach audio recordings, and do not paste
+        transcripts or logs that contain sensitive content. Scribe processes
+        everything on your Mac, and we would rather not receive private material
+        in a public issue. See
+        [Troubleshooting](https://github.com/AgentC-Consulting/scribe-app/blob/main/docs/troubleshooting.md)
+        for how to collect and review logs before attaching them.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem in a sentence or two.
+      placeholder: When I pressed the dictation shortcut, nothing was pasted.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps that lead to the problem.
+      placeholder: |
+        1. Click into a text field
+        2. Press Option + Shift + R and speak
+        3. Press Option + Shift + R again to stop
+        4. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: The transcript should have been pasted at my cursor.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened?
+      placeholder: The transcript was saved, but nothing was pasted.
+    validations:
+      required: true
+  - type: input
+    id: scribe-version
+    attributes:
+      label: Scribe version
+      description: >
+        From the menu bar icon, choose About Scribe. Because beta builds share
+        one version number, also note which release you downloaded (name or
+        date).
+      placeholder: "Version 1.0.0 (beta downloaded 2026-07-18)"
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      description: Apple menu > About This Mac.
+      placeholder: "macOS 14.5"
+    validations:
+      required: true
+  - type: input
+    id: mac-model
+    attributes:
+      label: Mac model and chip
+      description: Apple menu > About This Mac.
+      placeholder: "MacBook Pro, Apple M2 Pro"
+    validations:
+      required: true
+  - type: dropdown
+    id: recording-mode
+    attributes:
+      label: Which recording mode was active?
+      options:
+        - Dictation (Option + Shift + R)
+        - Meeting (Option + Shift + M)
+        - A custom mode I created
+        - Transcribe Audio File
+        - Not applicable / not sure
+    validations:
+      required: true
+  - type: checkboxes
+    id: permissions
+    attributes:
+      label: Which permissions have you granted to Scribe?
+      description: Check every permission that is turned on for Scribe. Most live under System Settings > Privacy & Security; Notifications is under System Settings > Notifications.
+      options:
+        - label: Microphone
+        - label: Accessibility
+        - label: Screen Recording
+        - label: Notifications
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: >
+        Paste relevant log lines or attach a log file. See
+        [Troubleshooting](https://github.com/AgentC-Consulting/scribe-app/blob/main/docs/troubleshooting.md#collecting-logs)
+        for how to collect them. Review anything you attach and remove sensitive
+        text first.
+      render: text
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, crash reports, or other context that might help.
+    validations:
+      required: false

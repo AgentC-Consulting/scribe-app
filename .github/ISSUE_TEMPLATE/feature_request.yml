@@ -1,0 +1,39 @@
+name: Feature request
+description: Suggest an idea or improvement for Scribe.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping shape Scribe. Tell us what you would like to be able
+        to do and why it matters to you.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the need or the frustration behind the request.
+      placeholder: I record long meetings and want an easier way to find a specific moment.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like Scribe to do?
+      description: Describe the feature or change you have in mind.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you have considered
+      description: Any workarounds you use today, or other approaches you thought about.
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, examples, or other context.
+    validations:
+      required: false
