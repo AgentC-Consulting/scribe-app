@@ -1,0 +1,49 @@
+Scribe License Agreement
+
+Copyright (c) 2026 AgentC Consulting LLC. All rights reserved.
+
+Scribe is proprietary, closed-source software made available free of charge.
+This is not an open-source license — no source code is provided or licensed
+under these terms.
+
+1. GRANT OF USE
+   You may install and use Scribe, for personal or commercial purposes, on
+   any Mac you own or control, at no cost. This right does not expire and is
+   not tied to a subscription.
+
+2. WHAT YOU MAY NOT DO
+   You may not redistribute modified, patched, re-signed, or re-packaged
+   builds of Scribe. You may not reverse engineer, decompile, or disassemble
+   the app except to the extent applicable law expressly permits despite
+   this restriction. You may not remove or alter this notice or Scribe's
+   code signature.
+
+3. REDISTRIBUTING THE ORIGINAL APP
+   You may share the official, unmodified installer as published by
+   AgentC Consulting LLC. Always point people to the official releases
+   page so they get the current, signed, notarized build.
+
+4. THIRD-PARTY COMPONENTS
+   Scribe includes open-source software and a machine-learning model
+   provided by third parties, each under its own license. Those licenses
+   govern the respective components and are identified, with links to
+   their full license texts, in ACKNOWLEDGEMENTS.md in this repository. To the extent of any conflict
+   between this Agreement and a third-party component's license, the
+   third-party license controls solely with respect to that component —
+   nothing here restricts rights already granted to you in those components.
+
+5. NO WARRANTY
+   Scribe is provided "as is," without warranty of any kind, express or
+   implied, including but not limited to warranties of merchantability,
+   fitness for a particular purpose, and non-infringement. AgentC
+   Consulting LLC is not liable for any damages arising from use of Scribe,
+   to the maximum extent permitted by law.
+
+6. SCRIBE STAYS FREE
+   Scribe — this app, including its updates — is free for life. This
+   promise is not a trial. AgentC Consulting LLC may offer a separate,
+   additional product in the future; that does not change this Agreement
+   or make this app any less free.
+
+7. CONTACT
+   Questions about this license: agent_c@agentc.consulting

@@ -17,6 +17,8 @@ machine.
   call with speaker labels.
 - [Transcribe an audio file](transcribe-audio-file.md) — turn an existing
   recording into text.
+- [Supported languages](languages.md) — the 25 European languages
+  that Scribe transcribes, and how detection works.
 - [Preferences reference](preferences.md) — every setting in the Preferences
   window, including storage cleanup and what the safety rails guarantee.
 - [Privacy](privacy.md) — how Scribe keeps everything on your Mac.

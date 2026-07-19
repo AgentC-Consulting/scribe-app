@@ -104,6 +104,10 @@ The transcript is saved to your recordings folder and pasted at your cursor
 (when auto-paste is enabled). For the full flow, see
 [Dictation basics](dictation-basics.md).
 
+Scribe auto-detects your language — it transcribes 25 European
+languages, with nothing to select first. See [Supported languages](languages.md)
+for the full list.
+
 > **Note:** Everything runs locally. Audio never leaves your Mac, and no network
 > connection is needed for transcription.
 
